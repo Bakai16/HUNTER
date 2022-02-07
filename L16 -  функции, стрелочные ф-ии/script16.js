@@ -5,7 +5,7 @@ function showFirstMessage(text){
     console.log(num);
 }
 showFirstMessage("Hello world!");
-//expected output: "Hello world!"   20
+//expected output: "Hello world!"   20 
 
 
 
@@ -44,3 +44,11 @@ const logger = function(){
 };  //точка с запятой обязательна
 logger();
 //expeced output: Hello!
+
+
+
+
+// стрелочная функция
+const calck = (a, b) => {
+     return a + b;
+}; 
