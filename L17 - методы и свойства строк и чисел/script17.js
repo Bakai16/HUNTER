@@ -32,7 +32,9 @@ console.log(Math.round(num));
 
 
 const num1 = "12.2px";
-console.log(parseInt(num2));
+console.log(parseInt(num2)); //практика часто используется для преобразования строки в число
 //expected output: 12
+console.log(parseFloat(num1));
+//expected output: 12.2 
 
 
