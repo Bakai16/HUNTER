@@ -16,10 +16,11 @@ function learnJS(lang, callback){
     console.log(`Я учу: ${lang}`);
     callback();
 }
-
-learnJS('Javascript', function(){
+function done(){
     console.log("Я прошель этот урок!");
-});
+}
+
+learnJS('Javascript', done);
 
 //expect output 
 // Я учу: Javascript
