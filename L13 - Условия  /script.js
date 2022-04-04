@@ -12,13 +12,13 @@ if ( 4 == 4){
 
 // const num = 50;
 
-// if (num < 49){
-//     console.log("Error!");
-// } else if ( num > 100)
-//     console.lgo("Много");
-// else {
-//     console.log("Ok!");
-// }
+if (num < 49){
+    console.log("Error!");
+} else if ( num > 100)
+    console.lgo("Много");
+else {
+    console.log("Ok!");
+}
 
 // // Тернарного оператора   ? :   единственный оператор
 
@@ -30,7 +30,7 @@ if ( 4 == 4){
 //унарный оргумуент
 // +'4';
 
-const num = 50;
+const num = 100;
 
 switch (num) {
     case 49:
