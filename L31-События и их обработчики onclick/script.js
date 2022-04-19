@@ -35,7 +35,7 @@ const deleteElement = (e) =>{
 // overlay.addEventListener('click', deleteElement);
 
 btns.forEach(btn =>{
-    btn.addEventListener('click' , deleteElement,  {once: true});   //option true once 
+    btn.addEventListener('click' , deleteElement,  {once: true});   //option true once
 });
 
 
