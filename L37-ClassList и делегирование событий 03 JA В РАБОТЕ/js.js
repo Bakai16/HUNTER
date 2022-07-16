@@ -4,8 +4,8 @@ const btns = document.querySelectorAll('button');
 // console.log(btns[0].classList.length);
 // console.log(btns[0].classList.item(1));   //some   class
 // console.log(btns[1].classList.add('red', 'djfdjfjjfjs'));  //добавить 
-// console.log(btns[0].classList.remove('blue'));   //remove blut class
-// console.log(btns[0].classList.toggle('blue'));   //кайтып келди blut class
+// console.log(btns[0].classList.remove('blue'));   //remove blue class
+// console.log(btns[0].classList.toggle('blue'));   //кайтып келди blue class
 
 
 // if(btns[1].classList.contains('red')){
