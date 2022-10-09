@@ -106,7 +106,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const modalTrigger = document.querySelectorAll("[data-modal]"),
         modal = document.querySelector(".modal"),
-        modalCloseBtn = document.querySelector("[data-close");
+        modalCloseBtn = document.querySelector("[data-close]");
 
     function openModal() {
         modal.classList.add("show");
